@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>jscript movie exercise</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3> List of Daniel's 5 most and 5 least favorite movies <small>sorted by star rating</small></h3>
+          <h5><em>Unfortunately, my top 5 aren't the first 5...</em></h5>
+        </div>
+        <div class="col-sm-12">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Director</th>
+                <th>Actors</th>
+                <th>Genre</th>
+                <th>Star Rating</th>
+                <th>Metascore</th>
+              </tr>
+            </thead>
+            <tbody id="movielist">
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row" id=jsonforeach>
+        <div class="col-sm-4">
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+
+</html>
